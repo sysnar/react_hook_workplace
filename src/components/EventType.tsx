@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-type EventTypeProps = {
+interface EventTypeProps {
   onSubmit: (form: { name: string; description: string }) => void;
 };
 
-type EventUser = {
+interface EventUser {
   name: string;
   description?: string;
 }
